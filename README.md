@@ -18,7 +18,7 @@ yarn start
 
 This will open a page on localhost:3000 with the app running.
 
-I have a build script as well, but I haven't set up the app to run the build files automatically currently.
+I have a build script as well, but I haven't set up the app to also build the css files into the app.
 
 ## Technologies used
 
@@ -44,4 +44,4 @@ It was quick for me to use flex to position everything on the page, but for a mo
 
 It's mostly responsive, I think I would instead have the image either be smaller, or hidden on mobile sizes. The heading font can be smaller so it can fit on mobile without having to wrap individual words. The top list of links would probably be better as a hamburger menu with a slide out.
 
-I'd set up the build function to update the bundle numbers in the index.html page.
+I'd set up the build function to also add the css files into the index.html file.
