@@ -1,0 +1,27 @@
+@import "../../vars.scss";
+
+.SearchBar {
+  max-width: 100%;
+  position: relative;
+  margin: $base-15;
+}
+
+.SearchBar__input {
+  width: 100%;
+  font-size: 20px;
+  color: $light-text-color;
+  padding: $base-6;
+  background-image: radial-gradient(
+    100% 100% at 50% 0%,
+    rgba($white, 0.4) 0%,
+    rgba($gray-150, 0.4) 100%
+  );
+  box-shadow: inset 0px 1px 3px rgba($black, 0.5);
+}
+
+.SearchBar__icon {
+  position: absolute;
+  right: $base-6;
+  top: $base-6;
+  fill: $alt-icon-color;
+}
