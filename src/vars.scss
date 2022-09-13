@@ -1,6 +1,28 @@
+// Colors
 $white: #fff;
 $gray-100: #f2f2f2;
 $gray-150: #eeeded;
+$gray-200: #c2c2c2;
 $gray-400: #9b9b9b;
 $gray-700: #4a4a4a;
 $black: #000;
+
+$deep-red: #96151d;
+
+$text-color: $gray-700;
+$light-text-color: $gray-400;
+$background-color: $gray-100;
+$border-color: $gray-400;
+$icon-color: $deep-red;
+$alt-icon-color: $gray-200;
+
+// Spacing
+$base-spacing: 4px;
+$base-2: $base-spacing * 2; // 8px
+$base-3: $base-spacing * 3; // 12px
+$base-6: $base-spacing * 6; // 24px
+$base-15: $base-spacing * 15; // 60px
+
+// Font-sizes
+$font-size: 16px;
+$heading-1: 72px;

@@ -1,0 +1,10 @@
+@import "vars.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: $text-color;
+  font-size: $font-size;
+}
