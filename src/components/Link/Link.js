@@ -2,14 +2,9 @@ import React from "react";
 
 import "./Link.scss";
 
-const Link = ({ href, handleMouseEnter, handleMouseLeave, children }) => {
+const Link = ({ href, children }) => {
   return (
-    <a
-      className="Link"
-      href={href}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
+    <a className="Link" href={href}>
       {children}
     </a>
   );

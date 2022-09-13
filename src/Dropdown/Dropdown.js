@@ -5,18 +5,18 @@ import "./Dropdown.scss";
 
 const Dropdown = ({ dropdownInternal, children }) => {
   const [showDropdown, setShowDropdown] = React.useState(false);
+  const showDropdownClass = showDropdown ? " show" : "";
   return (
     <div className="Dropdown">
-      <Link
-        href="#"
-        handleMouseEnter={() => setShowDropdown(true)}
-        handleMouseLeave={() => setShowDropdown(false)}
+      <div
+        onMouseEnter={() => setShowDropdown(true)}
+        onMouseLeave={() => setShowDropdown(false)}
       >
         {children}
-      </Link>
-      {showDropdown && (
-        <div className="Dropdown__dropdown">{dropdownInternal}</div>
-      )}
+        <div className={`Dropdown__dropdown${showDropdownClass}`}>
+          {dropdownInternal}
+        </div>
+      </div>
     </div>
   );
 };

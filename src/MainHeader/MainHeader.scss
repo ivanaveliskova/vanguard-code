@@ -3,10 +3,14 @@
 .MainHeader {
   display: flex;
   gap: $base-2;
+  padding: $base-3;
+  border-bottom: 1px solid $border-color;
 }
 
-// .MainHeader__dropdown {
-// }
+.MainHeader__dropdown {
+  display: flex;
+  flex-direction: column;
+}
 
 .MainHeader__dropdown-link {
   display: flex;

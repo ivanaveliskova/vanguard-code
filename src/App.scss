@@ -1,0 +1,13 @@
+@import "./vars.scss";
+
+.App__main {
+  display: flex;
+  padding: $base-3;
+  align-items: center;
+  justify-content: center;
+  gap: $base-6;
+
+  .Heading-1 {
+    max-width: 500px;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Arrow from "../assets/Arrow.svg";
+import Arrow from "../assets/svgs/Arrow.svg";
 import Link from "../components/Link/Link";
 import Dropdown from "../Dropdown/Dropdown";
 
@@ -9,7 +9,14 @@ import "./MainHeader.scss";
 const MainHeader = () => {
   return (
     <header className="MainHeader">
-      <Dropdown dropdownInternal={<div>List of links 1</div>}>
+      <Dropdown
+        dropdownInternal={
+          <div className="MainHeader__dropdown">
+            <Link href="#">Link 1</Link>
+            <Link href="#">Link 2</Link>
+          </div>
+        }
+      >
         <span className="MainHeader__dropdown-link">
           Item 1<Arrow className="MainHeader__dropdown-svg" />
         </span>
