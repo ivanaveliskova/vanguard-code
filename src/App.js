@@ -18,7 +18,11 @@ const App = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </Heading1>
         <div>
-          <img src={HeaderImage} alt="Man with chart" />
+          <img
+            className="App__main-image"
+            src={HeaderImage}
+            alt="Man with chart"
+          />
         </div>
       </div>
       <div>
